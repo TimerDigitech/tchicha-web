@@ -1,0 +1,46 @@
+.sideleft{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0,0.1);
+    height: 100vh;
+}
+.sideleft_title{
+    display: flex;
+    height: 110px;
+    align-items: start;
+    justify-content: start;
+    padding-top: 10px;
+    color: #436cf4;
+   
+    
+}
+.sideleft_link{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 10px;
+}
+.sideleft_link_item{
+    height: 50px;
+}
+.sideleft_link_item .active{
+    color: #436cf4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sideleft_link_item .btn{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+}
+.sideleft_link_item .logo{
+    margin-right: 10px;
+}
+.sideleft_link_item a{
+    text-decoration: none;
+    color: #000;
+}

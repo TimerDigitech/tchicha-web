@@ -1,0 +1,41 @@
+.dash{
+    display: flex;
+    flex-direction: row;
+}
+.dash_sideleft{
+    width: 25%;
+    min-height: 100vh;
+    background-color:#fff;
+    position: fixed;
+    border-right: 1px solid hsl(0, 0%, 80%);
+    z-index: 100;
+}
+.dash_ctn{
+    display: flex;
+    background-color: blanchedalmond;
+    min-width: 75%;
+    position:absolute;
+    right: 0;
+}
+.dash_ctn_body{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    padding-top: 20px;
+}
+.dash_ctn_topbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#fff;
+    height: 80px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    z-index: 10;
+}

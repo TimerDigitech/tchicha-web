@@ -1,0 +1,37 @@
+.groupe {
+    display: flex;
+    flex-direction: column;
+    max-height: 25vh;
+    width: 25vh;
+    border-radius: 10px;
+    z-index: 100;
+    background-color: #cfd3e8;
+
+}
+
+.groupe_img {
+    height: 19vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeff3;
+    margin: 5px;
+    border-radius: 10px;
+  
+}
+
+.groupe_img img {
+    height: 100%;
+    width: 100%;
+}
+.groupe_txt{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.groupe_txt p {
+    font-weight: 300;
+}

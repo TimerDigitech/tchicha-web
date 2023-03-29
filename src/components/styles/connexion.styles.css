@@ -1,0 +1,70 @@
+.connexion {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.connexion_img {
+    width: 55%;
+    height: 100%;
+
+}
+
+.connexion_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.connexion_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.connexion_form_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    color: #436cf4;
+}
+
+.connexion_form_intitu {
+    color: #000;
+    margin: 20px;
+}
+
+.connexion_form_input {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.inscrire_form {
+    color: #436cf4;
+}
+
+.connexion_form_input input {
+    height: 45px;
+    width: 63%;
+    border-radius: 4px;
+    outline: none;
+}
+
+.connexion_form_input .con{
+    padding: 15px 25%;
+    min-width: 60%;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #436cf4;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0px;
+   
+}
+
+.connexion_form_input a{
+    text-decoration: none;
+}

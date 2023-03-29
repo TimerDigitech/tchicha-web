@@ -1,0 +1,95 @@
+.user{
+    display: flex;
+    flex-direction: column;
+      
+}
+.user_head{
+    position:fixed;
+    top: 120;
+}
+.useritem{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    border-bottom: 0.2px solid #c3c3c7;
+    margin:10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.useritem_img{
+    width: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 10px;
+}
+
+.useritem_txt{
+    width: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
+ 
+}
+.useritem_txt_name,.useritem_txt_groupe,.useritem_txt_role{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.useritem_txt_name{
+    width: 100vh;
+ 
+}
+.useritem_txt_groupe{
+    width: 100vh;
+}
+.useritem_txt_role{
+    width: 100vh;
+  
+}
+.useritem_action{
+    display: flex;
+    flex-direction: row;
+    max-width: 10vh;
+    
+}
+.useritem_action button{
+    width: 25px;
+    margin-inline-start: 10px;
+    border: none;
+    height: 25px;
+    border-radius: 4px;
+}
+.useritem_action_edit button{
+    color: #fff;
+    background-color: #436cf4;
+    
+}
+.useritem_action_delete button{
+    color: #fff;
+    background-color: #fe605c;
+}
+.sh{
+    background-color: #fff;
+    position: fixed;
+    width: 75%;
+    top: 80px;
+    height: 40px;
+    border-bottom:1px solid hsl(0, 0%, 80%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.sh button{
+    margin-right: 10px;
+    background-color: #436cf4;
+    border: none;
+    width: 130px;
+    color: #fff;
+    border-radius: 4px;
+    height: 25px;
+}

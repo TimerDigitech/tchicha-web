@@ -1,0 +1,41 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.banner_txt{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+.banner_txt h1{
+    font-weight: 400;
+    line-height: 0.10;
+    font-size: 2.2rem;
+    
+}
+.banner_txt p{
+    font-size: 14px;
+}
+.banner_img{
+    max-width: 50%;
+}
+.banner_img img{
+    max-width: 80%;
+    height: auto;
+}
+.banner_txt p{
+    text-align: justify;
+    line-height: 25px;
+}
+.banner_txt_btn{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: -15px;
+}
