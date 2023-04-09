@@ -1,0 +1,41 @@
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    
+}
+.topbar_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.topbar_icon{
+    margin-right: 20px;
+}
+.topbar_icon button{
+    margin-left: 10px;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    
+    
+}
+.topbar_title h3{
+    font-weight: 400;
+    line-height: 0px;
+    color: #436cf4;
+}
+.topbar_title p{
+    color: #8b8c91;
+    line-height: 0px;
+}
+.active{
+    color: #436cf4;
+}
+.btns{
+    margin-left: 10px;
+}

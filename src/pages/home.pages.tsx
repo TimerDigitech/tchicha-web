@@ -1,6 +1,6 @@
-import Banner from "../components/banner.components"
-import Groupe from "../components/groupe.components"
-import Header from "../components/header.components"
+import Banner from "../components/banner/banner.components"
+import Groupe from "../components/groupe/groupe.components"
+import Header from "../components/header/header.components"
 import "../components/styles/home.styles.css"
 import phy from "../assets/phy.png"
 import anglais from "../assets/anglais.png"
@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className="home">
             <div className="home_head">
-                <Header />
+            
                 <Banner />
             </div>
 

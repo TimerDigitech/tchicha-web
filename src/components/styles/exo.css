@@ -1,0 +1,35 @@
+.exo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color:#516cf4;
+    justify-content: center;
+}/* #071c4c*/
+.exo_af{
+    height: 12vh;
+    width: 50vh;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+}
+.exo_re{
+    width: 50vh;
+}
+.exo_re textarea{
+    min-width: 49vh;
+    max-width: 49vh;
+    outline: none;
+}
+.exo_btn {
+    width: 50vh;
+    
+}
+
+.exo_btn button {
+    width: 50vh;
+    background-color: #fff;
+    color: #516cf4;
+    height: 45px;
+}

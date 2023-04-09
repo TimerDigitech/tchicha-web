@@ -1,4 +1,4 @@
-import "./styles/topbar.styles.css"
+import "./topbar.styles.css"
 import * as Icon from "react-bootstrap-icons"
 import { NavLink } from "react-router-dom"
 const Topbar = (props: any) => {

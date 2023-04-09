@@ -1,4 +1,4 @@
-import "../components/styles/user.styles.css"
+import "./user.styles.css"
 import * as  Icon from "react-bootstrap-icons"
 const UserItem = (props: any) => {
     return (

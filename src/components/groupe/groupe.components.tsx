@@ -1,4 +1,4 @@
-import "./styles/groupe.styles.css"
+import "./groupe.styles.css"
 const Groupe=(props:any)=>{
     return(
         <div className="groupe">

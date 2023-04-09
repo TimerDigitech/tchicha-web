@@ -1,4 +1,4 @@
-import "../components/styles/topbar.styles.css"
+import "./topbar.styles.css"
 const Shead=()=>{
     return(
         <div className="">

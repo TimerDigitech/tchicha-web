@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
-import ban from "../assets/ban.jpg"
-import "./styles/banner.styles.css"
+import ban from "../../assets/ban.jpg"
+import "./banner.styles.css"
 
 const Banner = () => {
     return (

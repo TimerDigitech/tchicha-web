@@ -1,6 +1,6 @@
-import Shead from "../components/shead.components"
-import UserItem from "../components/user.components"
-import "../components/styles/topbar.styles.css"
+import Shead from "../components/shead/shead.components"
+import UserItem from "../components/user/user.components"
+import "../components/topbar/topbar.styles.css"
 const Historique=()=>{
     const users = [
         {

@@ -1,5 +1,5 @@
-import UserItem from "../components/user.components"
-import "../components/styles/user.styles.css"
+import UserItem from "../components/user/user.components"
+import "../components/user/user.styles.css"
 import { useState } from "react"
 import Modal from "../components/Modal";
 const User = () => {

@@ -1,4 +1,4 @@
-import "../components/styles/profile.styles.css"
+import "./profile.styles.css"
 const Profile = (props: any) => {
     return (
         <div className="profile">

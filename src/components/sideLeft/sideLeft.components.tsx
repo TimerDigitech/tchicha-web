@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
-import { Dash } from "../const/dash"
-import "./styles/sideleft.styles.css"
+import { Dash } from "../../const/dash"
+import "./sideleft.styles.css"
 
 const SideLeft = () => {
     const [btn,setBtn]=useState(false)
