@@ -1,19 +1,21 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Exercice from './components/exercices';
-import Classe from './pages/classes.pages';
-import Connexion from './pages/connexion.pages';
-import Cours from './pages/cours.pages';
-import Dashboard from './pages/dashboard.pages';
-import DashHome from './pages/dashHome.pages';
-import Groupes from './pages/groupes.pages';
-import Historique from './pages/historique.pages';
-import Home from './pages/home.pages';
-import Inscription from './pages/inscription';
-import Message from './pages/messages.pages';
-import User from './pages/user.pages';
-import GListe from './pages/groupesliste.pages';
-import HomeOutlet from './pages/homeoutlet.page';
+import Classe from './pages/classe/classes.pages';
+import Connexion from './pages/connexion/connexion.pages';
+import Cours from './pages/cours/cours.pages';
+import Dashboard from './pages/dashboard/dashboard.pages';
+import DashHome from './pages/dashhome/dashHome.pages';
+import Groupes from './pages/groupes/groupes.pages';
+import Historique from './pages/historique/historique.pages';
+import Home from './pages/home/home.pages';
+import Inscription from './pages/connexion/inscription';
+import Message from './pages/message/messages.pages';
+import User from './pages/user/user.pages';
+import GListe from './pages/groupes/groupesliste.pages';
+import HomeOutlet from './pages/homeoutlet/homeoutlet.page';
+import CListe from './pages/cours/coursliste';
+import Contact from './pages/contact/contact';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path='/' element={<HomeOutlet />} >
           <Route path='' element={<Home />} />
           <Route path='groupes' element={<GListe />} />
+          <Route path='cours' element={<CListe />} />
+          <Route path='contacts' element={<Contact />} />
           </Route>
           <Route path='/exo' element={<Exercice />} />
           <Route path='/classe' element={<Classe />} />

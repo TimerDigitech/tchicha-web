@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Cours from '../pages/cours.pages';
-import Dashboard from '../pages/dashboard.pages';
-import Groupes from '../pages/groupes.pages';
-import Historique from '../pages/historique.pages';
-import Home from '../pages/home.pages';
-import Message from '../pages/messages.pages';
-import User from '../pages/user.pages';
+import Cours from '../pages/cours/cours.pages';
+import Dashboard from '../pages/dashboard/dashboard.pages';
+import Groupes from '../pages/groupes/groupes.pages';
+import Historique from '../pages/historique/historique.pages';
+import Home from '../pages/home/home.pages';
+import Message from '../pages/message/messages.pages';
+import User from '../pages/user/user.pages';
 const DashNavigation = () => {
     return (
         <Routes>

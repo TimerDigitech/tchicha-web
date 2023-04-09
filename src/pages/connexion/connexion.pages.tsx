@@ -1,7 +1,7 @@
-import "../components/styles/connexion.styles.css"
-import con from "../assets/conn.png"
+import "./connexion.styles.css"
+import con from "../../assets/conn.png"
 import { NavLink } from "react-router-dom"
-const Inscription = () => {
+const Connexion = () => {
     return (
         <div className="connexion">
             <div className="connexion_img">
@@ -10,18 +10,14 @@ const Inscription = () => {
             <div className="connexion_form">
 
                 <div className="connexion_form_intitu">
-                    <h2>s'inscrire</h2>
+                    <h2>se connecter</h2>
                 </div>
                 <div className="connexion_form_input">
                     <input type='text' placeholder="login" />
 
                 </div>
                 <div className="connexion_form_input">
-                    <input type='text' placeholder="mot de passe" />
-
-                </div>
-                <div className="connexion_form_input">
-                    <input type='text' placeholder="confirmer mot de passe" />
+                    <input type='text' placeholder="password" />
 
                 </div>
                 <div className="connexion_form_input">
@@ -36,7 +32,14 @@ const Inscription = () => {
                     </NavLink>
                 </div>
                 <div className="connexion_form_input">
-                    <p>j'ai deja un compte?  <a className="inscrire_form" href="">se connecter</a></p>
+                    <p>Vous n'avez pas de compte?<NavLink
+                        key="conne"
+                        to="/inscription"
+                        className="c"
+
+                    >
+                        S'inscrire
+                    </NavLink></p>
 
                 </div>
             </div>
@@ -44,4 +47,4 @@ const Inscription = () => {
     )
 }
 
-export default Inscription
+export default Connexion

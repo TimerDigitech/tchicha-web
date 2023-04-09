@@ -1,7 +1,7 @@
-import UserItem from "../components/user/user.components"
-import "../components/user/user.styles.css"
+import UserItem from "../../components/user/user.components"
+import "../../components/user/user.styles.css"
 import { useState } from "react"
-import Modal from "../components/Modal";
+import Modal from "../../components/Modal";
 const User = () => {
     const [modalOpen, setModalOpen] = useState(false);
 

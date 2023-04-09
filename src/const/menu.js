@@ -9,10 +9,10 @@ export const Menu=[
     },    
     {
         name:"cours",
-        href:"/formations"
+        href:"/cours"
     },
     {
         name:"contact",
-        href:"/projets"
+        href:"/contacts"
     },
 ]

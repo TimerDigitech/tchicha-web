@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
-import Header from "../components/header/header.components"
-
+import Header from "../../components/header/header.components"
+import "./homeoutlet.css"
 const HomeOutlet=()=>{
     return(
         <div className="homeoulet">

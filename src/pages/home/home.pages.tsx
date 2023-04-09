@@ -1,10 +1,10 @@
-import Banner from "../components/banner/banner.components"
-import Groupe from "../components/groupe/groupe.components"
-import Header from "../components/header/header.components"
-import "../components/styles/home.styles.css"
-import phy from "../assets/phy.png"
-import anglais from "../assets/anglais.png"
-import math from "../assets/math.png"
+import Banner from "../../components/banner/banner.components"
+import Groupe from "../../components/groupe/groupe.components"
+import Header from "../../components/header/header.components"
+import "./home.styles.css"
+import phy from "../../assets/phy.png"
+import anglais from "../../assets/anglais.png"
+import math from "../../assets/math.png"
 const Home = () => {
     return (
         <div className="home">

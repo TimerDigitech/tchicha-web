@@ -1,6 +1,6 @@
-import Profile from "../components/profile/profile.components"
+import Profile from "../../components/profile/profile.components"
 import * as Icon from "react-bootstrap-icons"
-import "../components/styles/classe.components.css"
+import "./classe.components.css"
 const Classe = () => {
     return (
         <div className="classe">

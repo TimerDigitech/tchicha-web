@@ -1,8 +1,8 @@
 import { Outlet } from "react-router-dom"
-import SideLeft from "../components/sideLeft/sideLeft.components"
-import "../components/styles/dash.styles.css"
-import Topbar from "../components/topbar/topbar.compenents"
-import MainNavigation from "../navigations/mainNavigation.navigation"
+import SideLeft from "../../components/sideLeft/sideLeft.components"
+import "./dash.styles.css"
+import Topbar from "../../components/topbar/topbar.compenents"
+import MainNavigation from "../../navigations/mainNavigation.navigation"
 
 const Dashboard = () => {
     return (
