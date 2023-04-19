@@ -1,0 +1,40 @@
+.onemessage{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    margin: 5px;
+    min-width: 300px;
+}
+.onemessage-r{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: start;
+    margin: 5px;
+    min-width: 300px;
+}
+.onemessage_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #33333a;
+}
+.onemessage_msg{
+    background-color: #33333a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.onemessage_msg span{
+    font-weight: bold;
+}

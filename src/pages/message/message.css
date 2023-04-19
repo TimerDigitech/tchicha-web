@@ -1,0 +1,106 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+.message_contact {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    min-width: 50vh;
+
+    background-color: #5d5b8b;
+}
+
+.message_contact_item {
+    display: flex;
+    flex-direction: row;
+
+    height: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 0px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.message_contact_item_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.message_contact_item_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin:0px 10px;
+    color: #fff;
+}
+
+.message_contact_item_name span {
+    color: #33333a;
+}
+
+.message_contact_oc {
+    height: 40px;
+    min-width: 50vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.message_contact_oc button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.message_contact_sh {
+    height: 60vh;
+}
+
+.message_send {
+    position: fixed;
+    bottom: 0px;
+    min-width: 75%;
+    height: 45px;
+    right: 0px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.message_send input {
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #33333a;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.message_send button {
+    margin-right: 10px;
+    background-color: #5d5b8b;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    color: #fff;
+}

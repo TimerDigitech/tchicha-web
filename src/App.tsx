@@ -23,22 +23,22 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomeOutlet />} >
-          <Route path='' element={<Home />} />
-          <Route path='groupes' element={<GListe />} />
-          <Route path='cours' element={<CListe />} />
-          <Route path='contacts' element={<Contact />} />
+            <Route path='' element={<Home />} />
+            <Route path='groupes' element={<GListe />} />
+            <Route path='cours' element={<CListe />} />
+            <Route path='contacts' element={<Contact />} />
           </Route>
           <Route path='/exo' element={<Exercice />} />
           <Route path='/classe' element={<Classe />} />
           <Route path='/inscription' element={<Inscription />} />
           <Route path='/connexion' element={<Connexion />} />
           <Route path='/admin' element={<Dashboard />}>
-          <Route path='' element={<DashHome />} />
-          <Route path='user' element={<User />} />
-          <Route path='message' element={<Message />} />
-          <Route path='cours' element={<Cours />} />
-          <Route path='historique' element={<Historique />} />
-          <Route path='groupes' element={<Groupes />} />
+            <Route path='' element={<DashHome />} />
+            <Route path='user' element={<User />} />
+            <Route path='message' element={<Message />} />
+            <Route path='cours' element={<Cours />} />
+            <Route path='historique' element={<Historique />} />
+            <Route path='groupes' element={<Groupes />} />
           </Route>
         </Routes>
       </BrowserRouter>

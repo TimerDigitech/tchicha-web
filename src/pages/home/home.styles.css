@@ -1,8 +1,7 @@
 .home {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-  
+    height: 100vh;
     background-color: #eeeff3;
     justify-content: space-between;
     align-items: center;
@@ -14,17 +13,18 @@
     flex-direction: row;
     background-color: #436cf4;
     height: 80px;
-   
+    position: fixed;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    position: absolute;
     bottom: 0;
     left: 60px;
     right: 60px;
 }
-.home_footer_title{
+
+.home_footer_title {
     height: 10vh;
 }
+
 .home_other {
     display: flex;
     flex-direction: row;
@@ -33,13 +33,14 @@
     margin-left: 60px;
     margin-right: 60px;
     width: 90%;
- 
+  margin-bottom: 10px;
 }
 
 .home h3 {
     font-weight: 400;
     font-size: x-large;
 }
-.home_head{
+
+.home_head {
     max-height: 55vh;
-   }
+}

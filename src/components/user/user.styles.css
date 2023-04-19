@@ -93,3 +93,7 @@
     border-radius: 4px;
     height: 25px;
 }
+.valide_demande{
+    display: flex;
+    flex-direction: row;
+}

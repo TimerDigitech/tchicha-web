@@ -2,4 +2,5 @@
  display: flex;   
 padding: 0px 50px;
 flex-direction: column;
+height: 100vh;
 }

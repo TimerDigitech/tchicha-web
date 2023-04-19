@@ -1,0 +1,30 @@
+.cliste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eeeff3;
+}
+.cliste_cours{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    height: 30vh;
+}
+.cliste_cours button{
+    border: none;
+    background-color: #eeeff3;
+    cursor: pointer;
+}
+.cliste h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+.cliste_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.cliste_cours_office{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}

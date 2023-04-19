@@ -68,3 +68,11 @@
 .connexion_form_input a{
     text-decoration: none;
 }
+.connexion_form_title h2{
+    color: #436cf4;
+}
+.con{
+    text-decoration: none;
+    color: #436cf4;
+    margin-top: 15px;
+}

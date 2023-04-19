@@ -8,6 +8,18 @@ const Connexion = () => {
                 <img src={con} />
             </div>
             <div className="connexion_form">
+            <div className="connexion_form_title">
+            <NavLink
+                        key="conne"
+                        to="/"
+                        className="con"
+
+                    >
+                          <h2>TCHICHA</h2>
+                    </NavLink>
+              
+
+                </div>
 
                 <div className="connexion_form_intitu">
                     <h2>se connecter</h2>
@@ -35,8 +47,8 @@ const Connexion = () => {
                     <p>Vous n'avez pas de compte?<NavLink
                         key="conne"
                         to="/inscription"
-                        className="c"
-
+                    
+                        className="c inscrire_form" 
                     >
                         S'inscrire
                     </NavLink></p>
