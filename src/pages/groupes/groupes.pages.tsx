@@ -1,18 +1,26 @@
 import React from "react";
 import { useState } from "react";
 import { Modal } from "react-bootstrap";
+import GItem from "./gitem";
+import gr from "../../assets/info.png"
+import "./groupes.css"
+const Groupes = () => {
+    const [modalOpen, setModalOpen] = useState(true);
 
-const Groupes=()=>{
-    const [modalOpen, setModalOpen] = useState(false);
-
-    return(
+    return (
         <div className="groupes">
             <div className="sh">
-               <div></div>
-               <div><button>creer un groupe</button></div>
+                <div></div>
+                <div><button onClick={() => setModalOpen(true)}>creer un groupe</button></div>
             </div>
-
-      {modalOpen && <Modal setOpenModal={setModalOpen} />}
+            <div className="groupes_liste">
+            <GItem image={gr} dsc="leaders coorporation"/>
+            <GItem image={gr} dsc="leaders coorporation"/>
+            <GItem image={gr} dsc="leaders coorporation"/>
+            <GItem image={gr} dsc="leaders coorporation"/>
+            </div>
+          
+            {modalOpen && <Modal setOpenModal={setModalOpen} />}
         </div>
     )
 }

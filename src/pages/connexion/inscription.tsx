@@ -37,7 +37,7 @@ const Inscription = () => {
                     </NavLink>
                 </div>
                 <div className="connexion_form_intitu">
-                    <h2>s'inscrire</h2>
+                    <h2>inscription</h2>
                 </div>
                 <div className="connexion_form_input">
                     <input type='text' placeholder="email" onChange={(e) => setEmail(e.target.value)} />

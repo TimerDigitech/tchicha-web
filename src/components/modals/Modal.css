@@ -41,7 +41,8 @@
 .titleCloseBtn {
   display: flex;
   justify-content: flex-end;
-  border: 2px solid black;
+border-bottom: 1px solid black;
+padding: 3px;
 }
 
 .titleCloseBtn button {
@@ -49,6 +50,7 @@
   border: none;
   font-size: 25px;
   cursor: pointer;
+  color: #fe605c;
 }
 
 .modalContainer .body {

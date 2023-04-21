@@ -1,0 +1,24 @@
+.gitem{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 45vh;
+    margin: 20px;
+    box-shadow: 2px 2px 23px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.gitem_photo{
+    width: 100%;
+    height: 35vh;
+}
+.gitem_photo img{
+    width: 100%;
+    height: 100%;
+}
+.gitem_dsc{
+    display: flex;
+    height: 10vh;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+}

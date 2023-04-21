@@ -22,10 +22,10 @@ const Connexion = () => {
                 </div>
 
                 <div className="connexion_form_intitu">
-                    <h2>se connecter</h2>
+                    <h2>connexion</h2>
                 </div>
                 <div className="connexion_form_input">
-                    <input type='text' placeholder="login" />
+                    <input type='text' placeholder="email" />
 
                 </div>
                 <div className="connexion_form_input">

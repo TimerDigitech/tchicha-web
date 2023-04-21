@@ -5,7 +5,7 @@ const CListe = () => {
     return (
         <div className="cliste">
             <div className="cliste_title">
-            <h3>les cours les plus populaires</h3>
+            <h3>cours populaires</h3>
             </div>
              
             <div className="cliste_cours">
@@ -27,7 +27,7 @@ const CListe = () => {
            
             </div>
             <div className="cliste_title">
-            <h3>les cours au programme officiel</h3>
+            <h3>programme officiel</h3>
            
             </div>
             <div className="cliste_cours_office">

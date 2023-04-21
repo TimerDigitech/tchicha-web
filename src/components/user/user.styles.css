@@ -11,10 +11,12 @@
     display: flex;
     flex-direction: row;
     height: 5vh;
-    border-bottom: 0.2px solid #c3c3c7;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     margin:10px 20px;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
     
 }
 .useritem_img{
