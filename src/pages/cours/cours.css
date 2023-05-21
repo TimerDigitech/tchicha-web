@@ -29,3 +29,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.cours{
+    display: flex;
+    flex-direction: column;
+}
+.cours_liste{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

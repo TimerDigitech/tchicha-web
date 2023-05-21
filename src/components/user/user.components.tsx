@@ -18,8 +18,6 @@ const UserItem = (props: any) => {
                     <div> {props.role}</div>
                 </div>
 
-
-
             </div>
             <div className="useritem_action">
                 {

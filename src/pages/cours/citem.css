@@ -1,0 +1,39 @@
+.citem {
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 35vh;
+    margin: 20px;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.citem_photo {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+}
+.citem_photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.citem_photo_vue {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    margin-top:-40px ;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+.citem_photo_vue span{
+    margin:0px 5px;
+}
+.citem_name{
+    background-color: azure;
+}
